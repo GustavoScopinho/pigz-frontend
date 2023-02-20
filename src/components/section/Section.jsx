@@ -1,6 +1,7 @@
 import React from 'react'
 import * as S from './Section.styled'
 import ImgFloating from '../../assets/floating-ingredients.png'
+import { Formulario } from '../formulario/Formulario'
 
 export const Section = () => {
   return (
@@ -19,7 +20,9 @@ export const Section = () => {
             Temos uma equipe ansiosa para cadastrar seus produtos no Pigz Marketplace e deixar sua loja prontinha para iniciar as vendas.
             </S.P>
           </S.ContainerText>
-          
+          <S.ContainerForm>
+            <Formulario/>
+          </S.ContainerForm>
       </S.Section>
     </>
   )

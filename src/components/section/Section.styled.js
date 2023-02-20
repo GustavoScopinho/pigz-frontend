@@ -7,6 +7,7 @@ export const Section = styled.section`
   align-items: center;
   background: linear-gradient(158deg, #FA641E, #FF881F);
   flex-direction: column;
+  padding-bottom: 105px;
 `
 export const Container = styled.div`
 display: flex;
@@ -42,4 +43,10 @@ width: 90%;
 color: #fff;
 font-size: 16px;
 margin-top: -20px;
+`
+
+export const ContainerForm = styled.div`
+  width: 95%;
+  display: flex;
+  justify-content: center;
 `
