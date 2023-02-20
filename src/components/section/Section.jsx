@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './Section.styled'
 import ImgFloating from '../../assets/floating-ingredients.png'
-import { Formulario } from '../formulario/Formulario'
+import { Formulario } from '../form/Formulario'
 
 export const Section = () => {
   return (
