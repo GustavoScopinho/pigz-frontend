@@ -11,6 +11,10 @@ justify-content: center;
 align-items: center;
 margin-bottom: 20px;
 line-height: 0px;
+
+:hover {
+  border: 2px solid #CCCCCC;
+}
 `
 export const H4 = styled.h4`
 padding-top: 15px;

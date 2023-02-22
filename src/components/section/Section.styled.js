@@ -12,6 +12,7 @@ export const Section = styled.section`
 export const Container = styled.div`
 display: flex;
 width: 95%;
+overflow-x: hidden;
 `
 export const H1 = styled.h1`
 font-size: 40px;
