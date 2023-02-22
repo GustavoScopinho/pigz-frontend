@@ -3,6 +3,7 @@ import { Carousel } from '../components/carousel/Carousel'
 import { Functionalities } from '../components/functionalities/Functionalities'
 import { Header } from '../components/header/Header'
 import { Section } from '../components/section/Section'
+import { Suport } from '../components/suport/Suport'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       <Section/>
       <Functionalities/>
       <Carousel/>
+      <Suport/>
     </>
   )
 }
