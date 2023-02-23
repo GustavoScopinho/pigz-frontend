@@ -1,4 +1,3 @@
-import React from 'react'
 import * as S from './BoxFunction.styled'
 
 export const BoxFunction = (props) => {

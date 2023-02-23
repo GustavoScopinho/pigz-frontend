@@ -1,5 +1,5 @@
-import React from 'react'
 import { Carousel } from '../components/carousel/Carousel'
+import { Footer } from '../components/footer/Footer'
 import { Functionalities } from '../components/functionalities/Functionalities'
 import { Header } from '../components/header/Header'
 import { Section } from '../components/section/Section'
@@ -13,6 +13,7 @@ export const Home = () => {
       <Functionalities/>
       <Carousel/>
       <Suport/>
+      <Footer/>
     </>
   )
 }

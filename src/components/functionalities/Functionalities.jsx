@@ -1,4 +1,3 @@
-import React from 'react'
 import * as S from './Functionalities.styled'
 import PigzImage from '../../assets/pigz-pigz.svg'
 import { BoxFunction } from '../boxFunction/BoxFunction'

@@ -39,6 +39,10 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   box-shadow: rgba(255, 136, 31, 0.7) 0 5px 12px;
- 
+  transition: 0.1s;
+  cursor: pointer;
+  :hover{
+    scale: 1.01;
+  }
 
 `

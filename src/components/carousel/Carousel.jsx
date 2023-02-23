@@ -1,6 +1,5 @@
-import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
+import { Pagination} from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import { CarouselContent } from '../carouselContent/CarouselContent';
 import { SliderWrapper} from './Carousel.styled'
@@ -15,7 +14,6 @@ import 'swiper/css/pagination';
 
 export const Carousel = () => {
   return (
-    
     <>
     <SliderWrapper>
       <Swiper
@@ -23,7 +21,6 @@ export const Carousel = () => {
       slidesPerView={1}
       pagination={{ clickable: true }}
       renderBullet
- 
     >
       <SwiperSlide>
         <CarouselContent title={'Pigz Marketplace'} description={'Além de uma página exclusiva, com o Pigz Marketplace sua loja terá mais visibilidade, no app e no site. Uma vitrine com milhares de clientes todos os dias, pra vender muito mais.'} img={MarketPlaceImg} />

@@ -1,7 +1,4 @@
-import React from 'react'
 import * as S from './CarouselContent.styled'
-
-
 
 export const CarouselContent = (props) => {
   return (
