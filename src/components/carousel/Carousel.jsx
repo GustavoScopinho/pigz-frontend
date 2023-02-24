@@ -16,30 +16,19 @@ const numberPages = [1,2,3,4]
 
 export const Carousel = () => {
 
-  const [view, setView] = useState('0')
-
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollX > 1) {
-        setView('1')
-      } else if ( window.scrollX > 450) {
-        setView('2')
-      }
-    })
-  }, [])
-
+  
   return (
     <>
-    <S.ContainerPagination>
+    {/* <S.ContainerPagination>
       {numberPages.map((i) => <S.Pagination/>)}
-    </S.ContainerPagination>
+    </S.ContainerPagination> */}
   
       <Swiper
       modules={[Pagination]}
       slidesPerView={1}
       pagination={{ clickable: true }}
 
-      renderBullet
+     
     >
       <SwiperSlide>
     

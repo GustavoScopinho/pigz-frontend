@@ -3,17 +3,14 @@ body {
   width: 100%;
 }
 
-.swiper-pagination {
-  bottom: 95% !important;
+.swiper{
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  height: 100%;
 }
 
 .swiper-pagination {
-  position: static !important;
-  width: 414px !important;
-  transition: 300ms opacity;
-  transform: translate3d(0, 0, 0);
-  z-index: 1;
-
+   position: sticky!important;
 }
 
 .swiper-pagination .swiper-pagination-bullet {
@@ -23,7 +20,7 @@ body {
   height: 4px !important;
   border-radius: 32px; 
   position: static;
-  margin-top: -400px !important;
+
 }
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #FA641E;
