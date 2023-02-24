@@ -21,8 +21,8 @@ export const FormStepOne = (props) => {
           <label htmlFor="email">E-mail</label>
           <input type="text" name="email" id="email" placeholder='leonercio.goesfeeld@email.com' />
           </S.ContainerInput>
+          <label htmlFor="telefone">Telefone</label>
           <S.ContainerInputCountry>
-          {/* <label htmlFor="telefone">Telefone</label> */}
           <S.ContainerInputTel>
           <img src={IconBrazil} alt="" />
           <S.CountryText>
