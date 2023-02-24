@@ -1,37 +1,24 @@
-import * as S from './Carousel.styled'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination} from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import { CarouselContent } from '../carouselContent/CarouselContent';
-import { SliderWrapper} from './Carousel.styled'
 import MarketPlaceImg from '../../assets/CarouselContent/marketplace.png'
 import ManagementImg from '../../assets/CarouselContent/management.png'
 import CouriersImg from '../../assets/CarouselContent/couriers.png'
 import PaymentImg from '../../assets/CarouselContent/payment.png'
 
 import 'swiper/css/pagination';
-import { useEffect, useState } from 'react';
-
-const numberPages = [1,2,3,4] 
 
 export const Carousel = () => {
 
-  
   return (
     <>
-    {/* <S.ContainerPagination>
-      {numberPages.map((i) => <S.Pagination/>)}
-    </S.ContainerPagination> */}
-  
       <Swiper
       modules={[Pagination]}
       slidesPerView={1}
       pagination={{ clickable: true }}
-
-     
     >
       <SwiperSlide>
-    
         <CarouselContent  title={'Pigz Marketplace'} description={'Além de uma página exclusiva, com o Pigz Marketplace sua loja terá mais visibilidade, no app e no site. Uma vitrine com milhares de clientes todos os dias, pra vender muito mais.'} img={MarketPlaceImg} />
         </SwiperSlide>
       <SwiperSlide>
