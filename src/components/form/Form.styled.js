@@ -135,3 +135,50 @@ export const SelectType = styled(SelectCity)`
     margin-bottom: 75px;
   }
 `
+export const ContainerInputCountry = styled.div`
+  display: flex;
+  border-radius: 16px;
+  border: #999999 1px solid;
+  width: 334px;
+  height: 50px;
+  z-index: 999;
+
+
+  input{
+    border: none;
+    :focus{
+      border: none;
+      outline: 0;
+    }
+  }
+`
+
+export const ContainerInputTel = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F0F0F0;
+border-radius: 16px;
+width: 100px;
+height: 48px;
+padding: 0px 10.5px;
+z-index: 1;
+  img {
+    width: 24px;
+    height: 24px;
+    color: #9F9F9F;
+    :last-child{
+      opacity: 0.3;
+      margin-top: 2.5px;
+    }
+  }
+`
+export const CountryText = styled.p`
+ color: #9F9F9F;
+ font-weight: 300;
+ font-size: 14px;
+ margin: 0 2px 0px 4px;
+`
+
+
+
