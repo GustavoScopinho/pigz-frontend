@@ -47,6 +47,7 @@ export const ContainerPrice = styled.button`
 export const Button = styled.button`
   background: linear-gradient(259deg, #FA641E, #FF881F);
   color: #fff;
+  font-size: 16px;
   width: 302px;
   height: 56px;
   border-radius: 32px;

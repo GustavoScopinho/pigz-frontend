@@ -5,9 +5,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
- 
-
 `
 export const ContainerImage = styled.div`
   img {
@@ -19,6 +16,7 @@ export const H1 = styled.h1`
   color: #333333;
   font-size: 32px;
   text-align: center;
+  margin-bottom: 40px;
 `
 export const H1Last = styled(H1)`
   width: 334px;
@@ -29,5 +27,5 @@ export const P = styled.p`
   width: 286px;
   color: #333333;
   text-align: center;
-  
+  margin-top: -20px;
 `

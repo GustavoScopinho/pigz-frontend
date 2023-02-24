@@ -1,6 +1,6 @@
 import * as S from './Section.styled'
 import ImgFloating from '../../assets/floating-ingredients.png'
-import { Formulario } from '../form/Formulario'
+import { Form } from '../form/Form'
 
 export const Section = () => {
   return (
@@ -20,7 +20,7 @@ export const Section = () => {
             </S.P>
           </S.ContainerText>
           <S.ContainerForm>
-            <Formulario/>
+            <Form/>
           </S.ContainerForm>
       </S.Section>
     </>

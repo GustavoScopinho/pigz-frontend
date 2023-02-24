@@ -26,7 +26,6 @@ export const Functionalities = () => {
           <S.P>
           Tenha todas as funcionalidades Pigz sem taxa de adesão, sem comissão por cada venda, sem letrinhas miúdas.
           </S.P>
-
         </S.Container>
     </>
   )

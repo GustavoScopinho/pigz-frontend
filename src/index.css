@@ -2,21 +2,28 @@ body {
   margin: 0;
   width: 100%;
 }
+
 .swiper-pagination {
-  position: absolute;
-  width: auto !important;
+  bottom: 95% !important;
+}
+
+.swiper-pagination {
+  position: static !important;
+  width: 414px !important;
   transition: 300ms opacity;
   transform: translate3d(0, 0, 0);
   z-index: 1;
-  top: 0 !important;
+
 }
 
 .swiper-pagination .swiper-pagination-bullet {
   opacity: 1;
   background-color: #EEEEEE;
   width: 88px;
+  height: 4px !important;
   border-radius: 32px; 
-  
+  position: static;
+  margin-top: -400px !important;
 }
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #FA641E;
@@ -25,6 +32,7 @@ body {
 *{
 font-family: 'Cormorant Garamond', serif;
 font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
 }
 
 code {

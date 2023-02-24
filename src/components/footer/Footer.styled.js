@@ -48,20 +48,19 @@ export const ContainerContactUs = styled.div`
       }
     }
 `
-
 export const ContainerSocial = styled.div`
   margin-top: -10px ;
   display: flex;
   gap: 15px;
-  background-color: aliceblue;
-  
 `
 export const ContainerList = styled.div`
   padding-top: 66px;
 `
 export const HR = styled.hr`
-  border: 0.1em solid #9F9F9F;
-
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #9F9F9F;
 `
 export const ContainerTerm = styled.div`
   display: flex;

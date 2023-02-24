@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 `
 export const Box = styled.div`
   width: 380px;
@@ -27,7 +27,6 @@ width: 302px;
 text-align: center;
 font-size: 15px;
 font-weight: 300;
-margin: 40px 0;
 `
 export const ContainerImage = styled.div`
 display: flex;

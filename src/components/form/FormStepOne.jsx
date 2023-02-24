@@ -1,9 +1,9 @@
-import * as S from './Formulario.styled'
+import { Button } from './Button'
+import * as S from './Form.styled'
 
-export const Formulario = () => {
+export const FormStepOne = (props) => {
   return (
-   <>
-      <S.Container>
+    <>
         <S.ContainerForm>
           <S.H2>
           Quero vender no Pigz
@@ -25,10 +25,9 @@ export const Formulario = () => {
           </S.ContainerInput>
           <S.PLast>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</S.PLast>
           <S.ContainerButton>
-            <input type="submit" value="Continuar" />
+          <Button event={props.event} text={'Continuar'}/>
           </S.ContainerButton>
         </S.ContainerForm>
-      </S.Container>
-   </>
+    </>
   )
 }
